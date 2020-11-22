@@ -1,0 +1,555 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+height: 4364px;
+}
+
+.clr{
+    clear:both;
+}
+
+.overlay {
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.3);
+}
+.container {
+    width:1200px;
+    margin:auto;
+}
+.header{
+    background-image:url("../img/header.jpg");
+background-size: cover;
+    height:105vh;
+    background-position: center center;
+    
+}
+
+
+.header .nav {
+    padding-top:0px;
+   
+    width:100%;
+    position: relative;
+}
+
+.header .nav .logo {
+    float:left;
+    width:350px;
+    position: fixed;
+  
+}
+
+.header .nav .logo img {
+    width:50%;
+}
+
+.header .nav .navbar{
+    float:left;
+    width:60%;
+   position: absolute;
+   top: 15px;
+   right: 0px;
+   position: fixed;
+}
+
+.header .nav .navbar ul {
+    list-style:none;
+    overflow:hidden;
+padding: 19px;
+
+}
+
+.header .nav .navbar ul li {
+    float:left;
+    
+margin-top: 0px;  
+margin-left: 30px;
+margin-right: 0px;
+
+}
+
+.header .nav .navbar ul li a {
+    color:#ffffff;
+    text-decoration: none;
+    font-size:18px;
+    margin-right: 10px;
+    
+}
+.header-content{
+    text-align: center;
+    padding-top:220px;
+    color:#fff;
+
+}
+
+.header-content h1 {
+    font-size:70px;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: 'Alegreya', serif;
+
+
+}
+
+.header-content p {
+    font-size:22px;
+    font-family: 'Alegreya', serif;
+
+
+}
+
+.header-content .button {
+    margin-top:40px;
+    padding: 15px 28px;
+    font-family: 'Alegreya', serif;
+font-size: 20px;;
+    
+}
+
+.header-content .button a {
+    color:#fff;
+    text-decoration: none;
+    border:2px solid #fff;
+    padding:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+    border-radius: 10px;
+}
+
+.header-content a.learn {
+    background-color:#8e7754;
+    border:0;
+    
+}
+
+.button2{
+    margin-top:100px;
+    padding: 15px 28px;
+    font-family: 'Alegreya', serif;
+font-size: 30px;
+}
+.button2  a {
+    color:#fff;
+    text-decoration: none;
+    border:1px solid #fff;
+    padding:15px;
+    margin-bottom:10px;
+    margin-left:10px;
+    border-radius: 100%;
+}
+
+.Who-we-are{
+    margin-top:130px;
+    padding-top: 90px;
+    background-color:#f4f4f4;
+    overflow:hidden;
+    margin-top: 0px;
+    
+}
+
+.Who-we-are .Who-we-are-content{
+    float:left;
+    width:50%;
+    margin-top:50px;
+    padding-left: 30px;
+}
+
+.Who-we-are .Who-we-are-content h2 {
+    margin-bottom:20px;
+    font-size:40px;
+    padding-bottom: 15px;
+}
+
+.Who-we-are .Who-we-are-content p {
+   margin-bottom:20px;
+   font-size:16px;
+   line-height: 30px;
+   font-family: 'Alegreya', serif;
+}
+
+.Who-we-are .Who-we-are-image {
+    float:left;
+   width: 50%;
+
+}
+
+.Who-we-are .Who-we-are-image img {
+    width:100%;
+}
+
+
+#features {
+    padding: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    margin-top: 25px;
+  }
+  
+  #features .feature {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+  
+  #features .feature i {
+    color:rgb(142, 119, 84);
+  }
+  
+  #features .feature div {
+    padding: 1rem;
+    margin-left: 3rem;
+  }
+  
+  #features .feature div h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+.location{
+    margin-top:130px;
+    padding-top: 100px;
+    margin-bottom: 130px;
+    background-color:#f4f4f4;
+    overflow:hidden;
+    margin-top: 0px;
+padding-bottom: 110px;
+
+}
+
+.location .location-content{
+    float:left;
+    width:50%;
+    margin-top:50px;
+    padding-left: 30px;
+}
+
+.location .location-content h2 {
+    margin-bottom:20px;
+    font-size:40px;
+}
+
+.location .location-content p {
+   margin-bottom:20px;
+   font-size:16px;
+   line-height: 40px;
+   font-family: 'Alegreya', serif;
+}
+
+.location .location-image {
+    float:left;
+    width:50%;
+
+}
+
+.location .location-image img {
+    width:100%;
+}
+
+
+
+
+
+
+.baking{
+
+    margin-top:50px;
+    text-align:center;
+    margin-top: 0px;
+    font-size: 24px;
+    font-family: 'Alegreya', serif;
+    line-height: 50px;
+   
+}
+
+.baking1 {
+    margin-top:50px;
+    text-align:center;
+    margin-top: 0px;
+    font-size: 17px;
+    font-family: 'Alegreya', serif;
+    overflow:hidden;
+}
+
+
+.baking1 .baking-items .baking-item {
+    float:left;
+    width:33.3%;
+    padding-left:60px;
+    margin-top:20px;
+    line-height: 30px;
+    
+}
+
+.baking1 .baking-items .baking-item img {
+    width:110%;
+}
+
+
+.text{
+    background-color: red;
+    height: 110px;
+    width: 54px;
+    border-radius: 2px;
+    position: fixed;
+    right: 0px;
+    top: 253px;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+
+.Contact-Information{
+    margin-top:130px;
+    padding-top: 100px;
+    margin-bottom: 0px;
+    background-color:#f4f4f4;
+    overflow:hidden;
+    margin-top: 0px;
+
+}
+
+.Contact-Information .Contact-Information-content{
+    float:left;
+    width:50%;
+    margin-top:50px;
+    padding-left: 30px;
+}
+
+.Contact-Information .Contact-Information-content h2 {
+    margin-bottom:20px;
+    font-size:40px;
+}
+
+.Contact-Information .Contact-Information-content p {
+   margin-bottom:20px;
+   font-size:16px;
+   line-height: 40px;
+   font-family: 'Alegreya', serif;
+}
+
+
+.Contact-Information .Contact-Information-map {
+    float:left;
+    width:50%;
+
+}
+
+
+.Contact-Information-map p{
+margin-top: 200px;
+
+}
+
+.Contact-Information .Contact-Information-map img {
+    width:100%;
+}
+
+#Our-contact-details {
+    padding: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #Our-contact-details .Our-contact-detail {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+  
+  #Our-contact-details .Our-contact-detail i {
+    color:rgb(142, 119, 84);
+  }
+  
+  #Our-contact-details .Our-contact-detail div {
+    padding: 1rem;
+    margin-left: 3rem;
+  }
+  
+  #Our-contact-details .Our-contact-detail div h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+ 
+  .contact{
+    background-image:url("../img/contact.png");
+    background-size: cover;
+    height:50vh;
+    background-position: center center;
+    color: #fff;
+
+  }
+
+
+
+
+
+
+#contact-ts {
+    padding: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact-ts .contact-t {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+  
+  #contact-ts .contact-t i {
+    color:rgb(142, 119, 84);
+  }
+  
+  #contact-ts .contact-t div {
+    padding: 1rem;
+    margin-left: 3rem;
+  }
+  
+  #contact-ts .contact-t div h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+
+
+
+
+
+
+
+
+
+.table-contact-end{
+margin: auto;
+padding: 60px;
+color: #fff;
+line-height: 25px;
+font-family: 'Alegreya', serif;
+
+}
+
+
+.contact .table-contact-end .table-contact-end-row .item1table{
+
+padding-left: 43px;
+font-size:25px;
+padding-top:25px;
+
+}
+
+
+.contact .table-contact-end .table-contact-end-row-2 .table-contact-end-row-2-2{
+padding-left: 50px;
+font-size:15px;
+padding-top:0px;
+
+}
+
+.contact .table-contact-end .table-contact-end-row-2 .table-contact-end-row-2-2 p{
+    font-size:15px;
+    line-height: 30px;
+    
+    }
+
+
+
+    .tableee{
+        background-color: #353330;
+            height: 400px;
+        margin-top: 0px;
+        padding-top:0px;
+}
+.footer {
+
+    height: 300px;
+padding: 120px 0px 0px 600px;
+margin: auto;
+}
+
+.tableee .footer .log-1 p{
+top: 0px;
+right: 10px;
+padding: 20px 20px 40px 30px;
+color :rgb(182, 182, 182);
+font-style: bold;
+
+}
+
+
+
+
+/* CONTACT SECTION */
+
+
+
+
+  
+  .contactttt .containerrrr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    
+  }
+  
+
+  
+ 
+  .contactttt .containerrrr .sociallll.tito{
+
+padding-left: 40px;
+
+
+  }
+  .contactttt .containerrrr .sociallll>div a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #eee;
+    margin: 1rem 2rem;
+    font-weight: bolder;
+    transition: transform .5s;
+  }
+
+
+  
+  .contactttt .containerrrr .sociallll>div a:hover {
+    transform: translateY(-5px);
+  }
+  
+
+
+.waleed{
+
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 20px;
+    width: 100%;
+    position: fixed;
+bottom: 0px;    
+left: 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family: 'Alegreya', serif;
+
+}
+.waleed .my-name a{
+    margin: 1rem 0;
+    text-decoration: none;
+    color: #000000; 
+    font-family: 'Alegreya', serif;
+
+  }
+  
